@@ -1,0 +1,68 @@
+body {
+    background-color: #eeeeee;
+}
+
+footer {
+    position: absolute;
+    bottom: 22%;
+}
+
+form {
+    background-color: #ffffff;
+    width: fit-content;
+    height: 222px;
+    padding: 5% 7% 5% 5%;
+    margin: 10% 37%;
+    box-shadow: 0 10px 10px 0 #cccccc;
+}
+
+h1 {
+    font-family: fantasy, sans-serif;
+    text-align: center;
+    margin-top: 0;
+}
+
+.form-control {
+    padding: 5% 5%;
+    border: 0px;
+    border-bottom: solid 1px;
+}
+
+.form-control:focus {
+    outline: none;
+}
+
+.form-control::placeholder {
+    font-family: 'Courier New', Courier, monospace, serif;
+    text-transform: uppercase;
+}
+
+
+.submitButton {
+    border: 0;
+    border-radius: 0;
+    padding: 7% 7%;
+    background-color: #eeeeee;
+}
+
+.submitButton:active {
+    background-color: #dddddd
+
+}
+
+#submitLoginButton {
+    margin-left: 36%;
+}
+
+#submitCreateButton {
+    margin-left: 35%;
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
