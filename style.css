@@ -47,7 +47,10 @@ h1 {
 
 .submitButton:active {
     background-color: #dddddd
+}
 
+.submitButton:hover {
+    transform: scale(1.1);
 }
 
 #submitLoginButton {
